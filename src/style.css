@@ -1,0 +1,27 @@
+body {
+  margin: 0;                    /* 讓邊緣不要白一圈 */
+  height: 100vh;                /* 讓 Body 高度與視窗一致 */
+  display: flex;                /* 由 Flex 決定怎麼排版 */
+  flex-direction: column;       /* 使用 Column 的方式排版 */
+  justify-content: center;      /* 垂直方向置中 */
+  align-items: center;          /* 水平方向置中 */
+}
+
+#pet {
+  width: 120px;
+  height: 120px;
+  background-color: pink;
+  border-radius: 50%;
+
+  display: flex;                /* 內部元素排版方式 */
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.eye {
+  width: 16px;
+  height: 16px;
+  background-color: black;
+  border-radius: 50%;
+}
